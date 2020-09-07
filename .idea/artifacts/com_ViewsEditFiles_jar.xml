@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="com.ViewsEditFiles:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_ViewsEditFiles_jar</output-path>
+    <root id="archive" name="com.ViewsEditFiles.jar">
+      <element id="module-output" name="com.ViewsEditFiles" />
+    </root>
+  </artifact>
+</component>
