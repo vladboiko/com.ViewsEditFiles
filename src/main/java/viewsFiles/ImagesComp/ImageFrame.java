@@ -1,6 +1,7 @@
-package viewsFiles;
+package viewsFiles.ImagesComp;
 
 import javax.swing.*;
+import java.awt.*;
 import java.io.File;
 
 public class ImageFrame extends JFrame {
@@ -12,7 +13,8 @@ public class ImageFrame extends JFrame {
         // Добавление компонента к фрейму.
 
         ImageComponent component = new ImageComponent(pathFile);
-        add(component);
+        JPanel panel = new JPanel();
+        add(panel.add(new JScrollPane(component)));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 

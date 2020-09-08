@@ -1,6 +1,7 @@
-package viewsFiles;
+package viewsFiles.GUI;
 
 import javafx.stage.DirectoryChooser;
+import viewsFiles.ImagesComp.ImageFrame;
 
 import javax.swing.*;
 import java.awt.*;

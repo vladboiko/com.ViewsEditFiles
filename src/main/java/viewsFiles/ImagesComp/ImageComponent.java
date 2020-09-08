@@ -1,4 +1,4 @@
-package viewsFiles;
+package viewsFiles.ImagesComp;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
